@@ -17,10 +17,10 @@
                 <label>Create a New Password: <input type="password" name="password" pattern="[a-z0-5]{8,}" required /></label>
               </fieldset>
               <fieldset>
-                <label><input type="radio" name="account-type" /> Personal Account</label>
-                <label><input type="radio" name="account-type" /> Business Account</label>
+                <label><input class="inline" type="radio" name="account-type" /> Personal Account</label>
+                <label><input class="inline" type="radio" name="account-type" /> Business Account</label>
                 <label>
-                  <input type="checkbox" required name="isAccepted" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+                  <input type="checkbox" class="inline" required name="isAccepted" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
                       </label>
               </fieldset>
               <fieldset>
@@ -40,6 +40,7 @@
                           <textarea rows="3" cols="30" name="bio" placeholder="I like coding on the beach..."></textarea>
                       </label>
               </fieldset>
+              <input type="submit" value="Submit">
         </form>
     </body>
 </html>
